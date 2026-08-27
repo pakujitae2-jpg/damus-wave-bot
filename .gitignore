@@ -1,0 +1,40 @@
+# ── 비밀정보 (절대 커밋 금지) ──
+.env
+.env.local
+*.key
+*.pem
+
+# ── 런타임 상태 · 로그 (실계좌 잔고/포지션 포함) ──
+output/
+*.log
+
+# ── 데이터 캐시 (수백 MB) ──
+data_cache/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ── Node / 프론트엔드 ──
+node_modules/
+dist/
+.output/
+.nitro/
+.tanstack/
+.vinxi/
+*.local
+npm_install.log
+
+# ── OS / 편집기 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ── 임시 ──
+*.tmp
+*.bak
+Untitled
